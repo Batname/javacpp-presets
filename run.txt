@@ -1,0 +1,5 @@
+ANDROID_NDK=/Users/apple/Downloads/android-ndk-r10e/ bash cppbuild.sh -platform android-arm install ffmpeg
+
+
+// this command does not work
+mvn clean install --projects .,ffmpeg -e -Djavacpp.platform=android-arm -Djavacpp.platform.root=/Users/apple/Downloads/android-ndk-r10e/ -Djavacpp.platform.compiler=/Users/apple/Downloads/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++
